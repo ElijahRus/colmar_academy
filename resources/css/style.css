@@ -1,0 +1,158 @@
+/* General Style*/
+
+.main, header, .logo, nav span, .mainBanner, .sixtyPercentBlock, .fortyPercentBlock {
+  border: solid black 1px;
+}
+
+html {
+  font-size: 16px;
+}
+.main {
+  width: 95%;
+  margin: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.sixtyPercentBlock {
+  width: 60%;
+  padding: 2rem 1.5rem;
+}
+.fortyPercentBlock {
+  width: 40%;
+}
+.imageBlock {
+  width: 100%;
+}
+
+/* Header style */
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 4rem;
+  align-items: center;
+
+}
+
+.logo {
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  margin-left: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.logo img {
+  height: 2.8rem;
+}
+
+header nav {
+  margin-right: 1.5rem;
+}
+header nav span {
+  margin-left: 1rem;
+  font-size: 1.2rem;
+}
+/* header style finished here*/
+
+/* Container first Style */
+.first {
+  background-color: lightgrey;
+}
+
+
+
+/*
+.students {
+  width: 100%;
+}
+.sixtyPrcentBlock {
+  width: 60%;
+  margin: 2rem 1.5rem;
+}
+.fortyPercentBlock {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+
+
+}
+.mainBanner h1, .mainBanner p {
+  padding-bottom: 2rem;
+  color: #4a3636;
+}
+.mainBanner h1 {
+
+  font-weight: bold;
+}
+.mainBanner p {
+
+}
+
+
+
+
+
+.button {
+  width: 100%;
+  padding: .5rem 0;
+  background-color: #453a3f;
+  color: white;
+  text-align: center;
+  border-radius: 0.2rem;
+}
+
+.second {
+  align-items: flex-start;
+}
+
+.imgAndCleverness {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+.imgAndCleverness img {
+  width: 100%;
+
+}
+.cleverness {
+
+}
+.secContInfo {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+.classesBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid #e9ecec 1px;
+  margin: 0.5px;
+}
+.classesBlock img {
+  width: 35%;
+  padding: 1rem;
+}
+.classesInfo {
+  width: 65%;
+}
+.classesInfo h3, .classesInfo p,
+.classesInfo a {
+  padding: 0.25rem;
+}
+.classesInfo a {
+  color: #2b95f3;
+  text-decoration: none;
+}
+.mobileImg {
+  display: none;
+}
+.guest {
+  background-color: lightgrey;
+}
+*/
