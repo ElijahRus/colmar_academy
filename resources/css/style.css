@@ -21,12 +21,6 @@ html {
   font-family: 'Cabin';
   color: #453a3f;
 }
-/*
-.main {
-  width: 95%;
-  margin: auto;
-}
-*/
 .container {
   display: flex;
   justify-content: flex-start;
@@ -57,8 +51,9 @@ h3 {
 p {
   opacity: 0.7;
 }
+
 /* Header style */
-.header {
+header {
   display: flex;
   justify-content: space-between;
   height: 4rem;
@@ -86,10 +81,10 @@ p {
   height: 2.8rem;
 }
 
-.header nav {
+header nav {
   margin-right: 1.5rem;
 }
-.header nav span {
+header nav span {
   margin-left: 1rem;
   font-size: 1.2rem;
 }
@@ -107,7 +102,7 @@ p {
   padding-left: 2rem;
 }
 .button {
-  width: 100%;
+/*  width: 100%;*/
   padding: 1rem 0;
   background-color: #453a3f;
   color: white;
@@ -134,13 +129,8 @@ p {
 .cleverness p {
   margin: 1.5rem 0;
 }
-.sixtyPercentTwo {
 
-}
 /* ClassesBlock Style */
-.mobileImg {
-  display: none;
-}
 .classesBlock {
   display: flex;
   justify-content: center;
@@ -226,4 +216,136 @@ footer {
 }
 .copyright, footer nav {
   margin: 1rem 1.5rem;
+}
+
+/* desktop version style */
+@media only screen and (min-width: 620px){
+  .mobile {
+    display: none;
+  }
+}
+/* Laptop version Style */
+@media only screen and (max-width: 800px){
+  html {
+    font-size: 12px;
+  }
+}
+
+/* Mobile version Style */
+@media only screen and (max-width: 620px){
+  .desktop {
+    display: none;
+  }
+  html {
+    text-align: center;
+    background-color: white;
+  }
+  header nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0;
+  }
+  header img {
+    height: 2.8rem;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .first .sixtyPercentBlock {
+    width: 100%;
+    padding: 0;
+  }
+  .fortyPercentBlock {
+    width: 100%;
+  }
+  .mainBanner {
+    width: auto;
+    padding: 2rem;
+  }
+  .mainBanner h1 {
+    margin-bottom: 2rem;
+  }
+  .mainBanner .button {
+  font-size: 1.5rem;
+  padding: 1.5rem 0;
+  margin: 1.5rem;
+  }
+  .second .sixtyPercentBlock {
+    display: none;
+  }
+  .classesBlock {
+    flex-direction: column;
+      width: 95%;
+      margin: 5.33rem auto 0 auto;
+      border: none;
+  }
+  .classesBlock img {
+    width: 100%;
+  }
+  .guest {
+    background-color: white;
+  }
+
+  .classesInfo {
+    width: 100%;
+    text-align: left;
+    margin: 1rem 0 0 1.5rem;
+  }
+  .classesInfo h3 {
+    font-size: 2.5rem;
+  }
+
+   .classesInfo p {
+    font-size: 1.5rem;
+  }
+  .classesInfo h3, .classesInfo p {
+    padding: 1rem;
+  }
+  .guest {
+    padding-bottom: 2.7rem;
+
+  }
+  .orientation {
+    margin-top: 1.4rem;
+  }
+  .startLearning, .thesis {
+    width: 100%;
+    border-top: solid #e9ecec 1px;
+  }
+  .thesis {
+    padding: 0;
+  }
+  .startLearning h2, .thesis h2{
+    font-size: 2.5rem;
+    padding-top: 2.7rem;
+    padding-bottom: 1.4rem;
+  }
+  .third {
+    background-color: white;
+  }
+  .learning {
+    width: 95%;
+  }
+  .learningBlock {
+    background-color: lightgrey;
+    width: 95%;
+  }
+  .learningBlock h3{
+    font-size: 2rem;
+    padding: 1.4rem 1.4rem 2rem 1.4rem;
+    text-align: left;
+  }
+  .withVideo {
+    width: 100%;
+    padding: 0;
+  }
+  footer {
+    border: none;
+    margin-top: 2rem;
+  }
+  .copyright {
+    margin: 1.4rem;
+  }
+
 }

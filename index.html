@@ -9,7 +9,7 @@
   </head>
   <body>
     <div class="main">
-      <div class="header">
+      <header class="desktop">
         <div class="logo">
           <a href="#"><img href="#" src="./resources/images/ic-logo.svg" alt="logo contains image of lion"></a>
           <span>COLMAR<em>ACADEMY</em></span>
@@ -20,7 +20,16 @@
           <span>For companies</span>
           <span>Sign in</span>
         </nav>
-      </div>
+      </header>
+      <header class="mobile">
+        <nav>
+          <span><a href="#"><img href="#" src="./resources/images/ic-logo.svg" alt="logo contains image of lion"></a></span>
+          <span><a href="#"><img href="#" src="./resources/images/ic-on-campus.svg" alt="logo contains image of lion"></a></span>
+          <span><a href="#"><img href="#" src="./resources/images/ic-online.svg" alt="logo contains image of lion"></a></span>
+          <span><a href="#"><img href="#" src="./resources/images/ic-login.svg" alt="logo contains image of lion"></a></span>
+        </nav>
+      </header>
+
       <!--First block with image and Start Button -->
       <div class="first container">
         <div class="sixtyPercentBlock">
@@ -34,8 +43,10 @@
           </div>
         </div>
       </div><!--First Container ends here -->
+
+      <!-- Second container -->
       <div class="second container">
-        <div class="sixtyPercentBlock sixtyPercentTwo">
+        <div class="sixtyPercentBlock">
           <img class="imageBlock" src="./resources/images/information-main.jpg" alt="">
           <div class="cleverness">
             <h2>It doesn't hurt to keep practicing</h2>
@@ -49,39 +60,41 @@
         </div>
         <div class="fortyPercentBlock">
           <div class="classesBlock orientation">
-            <img class="desktopImg" src="./resources/images/information-orientation.jpg" alt="">
-            <img class="mobileImg" src="./resources/images/information-orientation-mobile.jpg" alt="">
+            <img class="desktop" src="./resources/images/information-orientation.jpg" alt="">
+            <img class="mobile" src="./resources/images/information-orientation-mobile.jpg" alt="">
             <div class="classesInfo">
               <h3>Orientation date</h3>
               <p>Tue 10/11 & Wed 10/12 8am-3pm</p>
-              <a href="#">Read more</a>
+              <p><a href="#">Read more</a></p>
             </div>
           </div>
           <div class="classesBlock campus">
-            <img class="desktopImg" src="./resources/images/information-campus.jpg" alt="">
-            <img class="mobileImg" src="./resources/images/information-campus-mobile.jpg" alt="">
+            <img class="desktop" src="./resources/images/information-campus.jpg" alt="">
+            <img class="mobile" src="./resources/images/information-campus-mobile.jpg" alt="">
             <div class="classesInfo">
               <h3>Our campus</h3>
               <p>Find wich campus is close by you</p>
-              <a href="#">Read more</a>
+              <p><a href="#">Read more</a></p>
             </div>
           </div>
           <div class="classesBlock guest">
-            <img class="desktopImg" src="./resources/images/information-guest-lecture.jpg" alt="">
-            <img class="mobileImg" src="./resources/images/information-guest-lecture-mobile.jpg" alt="">
+            <img class="desktop" src="./resources/images/information-guest-lecture.jpg" alt="">
+            <img class="mobile" src="./resources/images/information-guest-lecture-mobile.jpg" alt="">
             <div class="classesInfo">
               <h3>Our guest lecture</h3>
               <p>Join keynote with Oliver Sack about music in medical treatment</p>
-              <a href="#">Read more</a>
+              <p><a href="#">Read more</a></p>
             </div>
           </div>
         </div>
       </div>
       <!--Third Container starts Here -->
       <div class="third container">
-        <h2>Start lerning</h2>
+        <div class="startLearning container">
+          <h2>Start learning</h2>
+        </div>
         <div class="learning container">
-          <div class="learningBlock">
+          <div class="learningBlock desktop">
             <img src="./resources/images/course-software.jpg" alt="">
             <div class="learningInfo">
               <h3>Software engineering</h3>
@@ -89,7 +102,10 @@
               <p>Web Developement, Mobile Developement, iOT, APIs</p>
             </div>
           </div>
-          <div class="learningBlock">
+          <div class="learningBlock mobile">
+            <h3>Software engineering</h3>
+          </div>
+          <div class="learningBlock desktop">
             <img src="./resources/images/course-computer-art.jpg" alt="">
             <div class="learningInfo">
               <h3>Computer art</h3>
@@ -97,7 +113,10 @@
               <p>Imaging & Design, Web Design, Motion Graphics & Visual effects</p>
             </div>
           </div>
-          <div class="learningBlock">
+          <div class="learningBlock mobile">
+            <h3>Computer art</h3>
+          </div>
+          <div class="learningBlock desktop">
             <img src="./resources/images/course-design.jpg" alt="">
             <div class="learningInfo">
               <h3>Design</h3>
@@ -105,9 +124,12 @@
               <p>User expirience design, User Reserch, Visual Design</p>
             </div>
           </div>
+          <div class="learningBlock mobile">
+            <h3>Design</h3>
+          </div>
         </div>
         <div class="learning container">
-          <div class="learningBlock">
+          <div class="learningBlock desktop">
             <img src="./resources/images/course-data.jpg" alt="">
             <div class="learningInfo">
               <h3>Data</h3>
@@ -115,7 +137,10 @@
               <p>Data science, Big Data, SQL, Data Visualisation</p>
             </div>
           </div>
-          <div class="learningBlock">
+          <div class="learningBlock mobile">
+            <h3>Data</h3>
+          </div>
+          <div class="learningBlock desktop">
             <img src="./resources/images/course-business.jpg" alt="">
             <div class="learningInfo">
               <h3>Business</h3>
@@ -123,13 +148,19 @@
               <p>Web Developement, Mobile Developement, iOT, APIs</p>
             </div>
           </div>
-          <div class="learningBlock">
+          <div class="learningBlock mobile">
+            <h3>Business</h3>
+          </div>
+          <div class="learningBlock desktop">
             <img src="./resources/images/course-marketing.jpg" alt="">
             <div class="learningInfo">
               <h3>Marketing</h3>
               <p>COURSES</p>
               <p>Web Developement, Mobile Developement, iOT, APIs</p>
             </div>
+          </div>
+          <div class="learningBlock mobile">
+            <h3>Marketing</h3>
           </div>
         </div>
       </div> <!--Third container Ends Here -->
@@ -142,7 +173,7 @@
           <video autoplay muted loop>
             <source src="./resources/videos/thesis.mp4" type="video/mp4">
           </video>
-          <div class="cleverness underVideo">
+          <div class="cleverness underVideo desktop">
             <h3>Reimagine urban</h2>
             <p>"Curabitur vitae libero in ipsum porttitor consequat.
               Aliquam et commodo lectus, nec consequat neque.Sed non accumsan urna.
@@ -151,7 +182,7 @@
             </p>
           </div>
         </div>
-        <div class="fortyPercentBlock">
+        <div class="fortyPercentBlock desktop">
           <div class="classesBlock fisma">
             <img class="desktopImg" src="./resources/images/thesis-fisma.jpg" alt="">
             <div class="classesInfo">
@@ -172,7 +203,7 @@
         <div class="copyright">
           <span>© 2016 Colmar Academy. All rights reserved</span>
         </div>
-        <nav>
+        <nav class="desktop">
           <span>Terms</span>
           <span>Privacy</span>
         </nav>
