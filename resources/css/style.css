@@ -21,7 +21,7 @@
 #cccccc background color of container
 #823126 color for button transition
  */
- 
+
 /* General Style*/
 html {
   font-size: 16px;
@@ -116,6 +116,13 @@ header nav span {
   color: #e8e9e7;
   text-align: center;
   border-radius: 0.2rem;
+  transition: all 0.5s ease-out;
+  font-size: 1.2rem;
+}
+.button:hover {
+  background-color: #a79594;
+  color: #453a3f;
+  font-weight: bold;
 }
 .mainBanner h1, .mainBanner p, .mainBanner .button {
     margin: 1rem 0;
